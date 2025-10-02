@@ -15,7 +15,6 @@ const int ROW_LENGTH = 4;
 const int COL_LENGTH = 4;
 
 int compute_score(const std::vector<std::vector<int>>& board);
-void collectEmptyCells(vector<pair<int,int>>& emptyCells, const vector<vector<int>>& board);
 std::vector<int> compress_row(const std::vector<int>& row);
 std::vector<int> merge_row(std::vector<int> row);
 
@@ -89,17 +88,6 @@ void spawn_tile(std::vector<std::vector<int>>& board) {
 
     auto [r, c] = empty[pos_dist(gen)];
     board[r][c] = (val_dist(gen) == 1 ? 4 : 2); // 10% chance of 4
-}
-
-void collectEmptyCells(vector<pair<int,int>>& emptyCells, const vector<vector<int>>& board) {
-    // created sept 25
-    for (int r=0; r< ROW_LENGTH; r++) {
-        for (int c=0; c< COL_LENGTH; c++) {
-            if (board[r][c] == 0) {
-                emptyCells.push_back(make_pair(r,c));
-            }
-        }
-    }
 }
 
 // Helper function :
