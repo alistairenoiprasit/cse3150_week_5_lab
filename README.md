@@ -1,12 +1,12 @@
 # cse3150-week-5
-Lab Week: 5 `
+Lab Week: 5
 
 `Name: Alistaire Noiprasit`
 
-<!-- INSERT CI PYTEST STATUS HERE -->
+[![Run Pytest](https://github.com/alistairenoiprasit/cse3150_week_5_lab/actions/workflows/pytest.yaml/badge.svg)](https://github.com/alistairenoiprasit/cse3150_week_5_lab/actions/workflows/pytest.yaml)
 
 I declare that:
-- this assessment item is my own work, except where acknowledged, and has not been submitted for
+- This assessment item is my own work, except where acknowledged, and has not been submitted for
 academic credit elsewhere
 - I certify that I have read and understood the University rules in respect of Student Academic
 Misconduct.
