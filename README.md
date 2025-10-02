@@ -1,5 +1,5 @@
-# cse3150-template
-`Homework/Lab Week: `
+# cse3150-week-5
+Lab Week: 5 `
 
 `Name: Alistaire Noiprasit`
 
@@ -16,11 +16,12 @@ Misconduct.
 > This work is NOT ready for submission as of `Day XX MONTH 2025`. <br>
 -->
 > [!IMPORTANT]
-> This work is NOT ready for submission as of `<insert date>`. <br>
-> The final due date is `<insert date>`.
+> This work is NOT ready for submission as of `2 Oct 2025`. <br>
+> The final due date is `2 Oct 2025`.
 
 SIGNED: ALISTAIRE NOIPRASIT
 
 AI Declaration:
 The github workflow automation was done using ChatGPT and is unrelated to course materials. 
-(I just want to automate tests for pull requests).
+(I just want to automate tests for pull requests). Claude code was used in the generation of 
+the make file. 
